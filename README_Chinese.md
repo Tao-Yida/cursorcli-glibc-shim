@@ -2,6 +2,8 @@
 
 # 在 CentOS 7 上使用自定义 glibc 2.28 运行 CursorCLI Agent
 
+⚠️ 本项目已被合并到 [centos7-coding-agents](https://github.com/Tao-Yida/centos7-coding-agents)。  直接参考该项目
+
 ## 概述
 
 本项目提供了一个启动脚本，用于在 CentOS 7 系统上使用自定义 glibc 2.28 运行 CursorCLI Agent，而无需修改原有的 agent 脚本。CursorCLI Agent 需要 glibc 2.28 或更高版本，而 CentOS 7 的默认系统 glibc 为 2.17。
@@ -13,8 +15,6 @@
 1. 在用户目录下编译并安装了 **glibc 2.28** 和 **GCC 9.5.0**
 2. 自定义 glibc 安装在 `$HOME/opt/glibc-2.28`
 3. GCC 9.5.0 安装在 `$HOME/opt/gcc-9.5.0`
-
-关于编译和安装 glibc 2.28、GCC 9.5.0 和 Make 4.2 的详细说明，请参考 [opencode-on-centos7 项目](https://github.com/Tao-Yida/opencode-on-centos7)，该项目提供了设置所需环境的完整文档。
 
 ## 快速开始
 
